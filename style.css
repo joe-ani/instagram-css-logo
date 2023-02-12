@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 350px;
+}
+
+.logo-container {
+    background: linear-gradient(to bottom, rgb(187, 15, 187), red, orange);
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-border {
+    position: absolute;
+    border: 6px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.child-border {
+    position: absolute;
+    border: 6px solid #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.dot {
+    border: 4px solid #fff;
+    position: absolute;
+    border-radius: 30px;
+    left: 65px;
+    top: 30px;
+}
